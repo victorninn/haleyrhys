@@ -1,0 +1,189 @@
+
+*  {
+    font-size: 16px;
+    font-family: Truculenta;
+    margin: 0 auto;
+    display: block;
+    line-height: 1em;
+    box-sizing:border-box;
+    background: #9A20D7;
+    text-decoration: none;
+}
+
+title {
+    display: none;
+}
+
+h1 {
+    font-size: 4rem;
+    text-align: center;
+    color: #fff;
+}
+
+h2 {
+    font-size: 2.5rem;
+    text-align: center;
+    color: #fff;
+}
+
+.row {
+padding: 40px 0px 0px;
+}
+
+.main-section {
+    margin: 0 auto;
+    padding: 50px;
+}
+
+.section {
+    max-width: 1200px;
+    width: 100%;
+}
+
+.row.first .container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    row-gap: 50px;
+}
+
+.container-div{
+    flex: 1 0 49%; 
+    box-sizing: border-box;
+    cursor: pointer;
+    margin-bottom: 40px;
+}
+
+.container-div-img {
+    border: solid 5px #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+
+.container img {
+    width: 100%;
+    height: auto;
+}
+
+/* Adjustments for smaller screens */
+@media (max-width: 600px) {
+    .container {
+        flex-basis: 100%; /* Full width on smaller screens */
+    }
+}
+
+/*Slider*/
+
+.section {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+.row {
+    display: flex;
+    overflow: hidden; /* Hides the overflowing slides */
+    width: 100%;
+    position: relative;
+}
+.container {
+    flex: 0 0 auto;
+    width: 100%;
+    height: auto;
+    display: none; /* Hide all slides by default */
+    
+}
+.container.active {
+    display: block; /* Show only the active slide */
+}
+.container img {
+    max-width: 100%;
+    height: auto;
+}
+.btn-container {
+    position: relative;
+bottom: 0;
+    transform: translateY(-50%);
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    max-width: 900px;
+}
+
+.btn-container .btn {
+border: none;
+background: #fff;
+line-height: 1;
+padding: 5px;
+border-radius: 10px;
+cursor: pointer;
+
+}
+
+.btn-container .btn:checked , .btn-container .btn:active {
+    background: linear-gradient(110deg, rgba(132,255,159,1) 35%, rgb(70, 211, 187) 100%);
+}
+
+.btn-container .btn:hover{
+    box-shadow: -7px 1px 57px -12px rgba(23,0,23,1);
+    -webkit-box-shadow: -7px 1px 57px -12px rgba(23,0,23,1);
+    -moz-box-shadow: -7px 1px 57px -12px rgba(23,0,23,1);
+}
+
+.btn-container .btn-previous:before {
+    content: "\34";
+    font-family: 'ElegantIcons';
+    font-size: 50px;
+    font-weight: 700;
+    color: #9A20D7;
+}
+
+.btn-container .btn-next:after{
+content: "\35";
+    font-family: 'ElegantIcons';
+    font-size: 50px;
+    font-weight: 700;
+    color: #9A20D7;
+}
+
+
+/*Animals Page*/
+
+.animals-page .row {
+    max-width: 700px;
+}
+
+
+.container.active{
+    max-width: 500px;
+    width: 100%;
+}
+
+.container.active img{
+aspect-ratio: 1/1.2;
+object-fit: cover;
+object-position: center;
+}
+
+
+/*Numbers Page*/
+.numbers-page .container-div-number {
+    border: solid 5px #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-bottom: 10px;
+    min-height: 598px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(110deg, rgba(132,255,159,1) 35%, rgb(70, 211, 187) 100%);
+}
+
+.number-container {
+font-size: 200px;
+background: transparent;
+font-weight: 900;
+letter-spacing: .15em;
+color: #fff;
+text-shadow: 3px 3px 20px rgba(0, 0, 0, 0.486);
+}
