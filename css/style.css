@@ -32,7 +32,7 @@ padding: 40px 0px 0px;
 .main-section {
     margin: 0 auto;
     padding: 50px;
-    background-image: linear-gradient(100deg, rgb(70, 211, 187) 0%, #59c5dc 100%), URL(https://victorninn.github.io/haleyrhys/Assets/Images/frozen_family_wallpaper_by_thekingblader995_ddrrqyn-pre.jpg) !important;
+    background: #9A20D7;
 }
 
 .section {
