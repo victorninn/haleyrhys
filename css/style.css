@@ -33,6 +33,7 @@ padding: 40px 0px 0px;
 .main-section {
     margin: 0 auto;
     padding: 50px;
+    background-image: linear-gradient(100deg, rgb(70, 211, 187) 0%, #59c5dc 100%), url(https://img.freepik.com/free-vector/realistic-black-background-with-realistic-elements_23-2149159188.jpg?w=1380&t=st=1711628143~exp=1711628743~hmac=93985a1…) !important;
 }
 
 .section {
