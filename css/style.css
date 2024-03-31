@@ -32,7 +32,8 @@ padding: 40px 0px 0px;
 .main-section {
     margin: 0 auto;
     padding: 50px;
-    background: #9A20D7;
+    /*background: #9A20D7;*/
+    background: URL(../Assets/Images/Firefly-colorful-balloons-with-purple-pallet-2074);
 }
 
 .section {
