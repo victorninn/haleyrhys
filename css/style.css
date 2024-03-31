@@ -33,7 +33,9 @@ padding: 40px 0px 0px;
     margin: 0 auto;
     padding: 50px;
     /*background: #9A20D7;*/
-    background: url(../Assets/Images/Firefly-colorful-balloons-with-purple-pallet-2074.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: linear-gradient(to bottom, rgb(93 16 116 / 82%), rgb(186 84 225 / 73%)), url(../Assets/Images/Firefly-colorful-balloons-with-purple-pallet-2074.jpg);
 }
 
 .section {
